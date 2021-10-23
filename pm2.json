@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "newsportal_next",
+            "script": "npm",
+            "args" : "start",
+            "cwd": "./",
+            "instances": "6",
+            "exec_mode" : "cluster"
+        }
+    ]
+  }
